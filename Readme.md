@@ -1,7 +1,8 @@
-<center> <h2>Bot wanderley</h2> 
-<h3>O bot que so da ideia errada</h3>
-<img src="Github/botz.gif" height=360 width=480/>
-</center>
+<div align="center">
+  <h2 >Bot wanderley</h2> 
+  <h3>O bot que so da ideia errada</h3>
+  <img src="Github/botz.gif" />
+</div>
 
 <div style="LINE-HEIGHT:0px">
 <h3>Como rodar o bot</h3>
