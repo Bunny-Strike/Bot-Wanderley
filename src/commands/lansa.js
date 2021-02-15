@@ -20,13 +20,12 @@ module.exports = {
 
     //request data
     try {
-        const res = await fetch(URL);
-        const data = await res.json();
+      const res = await fetch(URL);
+      const data = await res.json();
 
-        await msg.channel.send(data.url);
+      await msg.channel.send(data.url);
     } catch (error) {
       msg.reply(" Ei boy, tem esse nao '-' (tente calango)");
     }
   },
 };
-
