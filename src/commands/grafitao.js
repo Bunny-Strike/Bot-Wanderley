@@ -8,7 +8,7 @@ module.exports = {
     const { voice } = msg.member;
 
     if (!voice.channelID) {
-      msg.reply("Ei galado, tu tem que estar num voice ta ligado nao?? '-'");
+      msg.reply("Aí Gld , Ess Hom Tem Q Tá  Num Voice Tlgd N??? '-'");
       return;
     }
     const song = Math.floor(Math.random() * grafith.length);
@@ -20,7 +20,7 @@ module.exports = {
 
       dispatcher.on("finish", () => voice.channel.leave());
     } catch (e) {
-      msg.reply("Ei galado, deu errado visse?");
+      msg.reply("Ei gld, morgou morgou?");
     }
   },
 };
